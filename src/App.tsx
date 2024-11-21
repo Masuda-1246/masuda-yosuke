@@ -2,7 +2,6 @@ import React from 'react';
 import { Github, Mail, BookOpen } from 'lucide-react';
 import Header from './components/Header';
 import About from './components/About';
-import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
@@ -14,7 +13,6 @@ function App() {
         <Header />
         <main className="space-y-20 py-20">
           <About />
-          <Experience />
           <Projects />
           <Skills />
           <Contact />
